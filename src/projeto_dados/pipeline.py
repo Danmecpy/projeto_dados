@@ -13,8 +13,9 @@ from projeto_dados.metrics import calculate_metrics
 BASE_DIR = Path(__file__).resolve().parents[2]
 
 extract_path = BASE_DIR / "data" / "raw" / "dados_brutos.csv"
-load_clean_path = BASE_DIR / "data" / "processed" / "dados_limpos.csv"
-load_metrics_path = BASE_DIR / "data" / "processed" / "metrics.csv"
+load_clean_path = BASE_DIR / "data" / "processed" / "dados_limpos.parquet"
+load_metrics_path = BASE_DIR / "data" / "processed" / "metrics.parquet"
+
 
 # =========================
 # LOGS (pequeno, corporativo)
