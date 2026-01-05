@@ -1,0 +1,2 @@
+run_id,execution_date,rows_raw,rows_clean,rows_removed,percent_removed,nulls_raw,nulls_clean,avg_salary,median_age,std_salary,max_salary,min_salary,total_salary
+20260105_113757,2026-01-05 11:37:57.164897,1000,427,573,57.3,38,0,5558.54,50,2584.75,9994.18,1010.08,2373498.28

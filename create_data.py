@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 # =========================
 np.random.seed(42)
 N_RECORDS = 1000
-OUTPUT_PATH = "data/raw/dados_brutos_sujos.csv"
+OUTPUT_PATH = "data/raw/dados_brutos.csv"
 
 os.makedirs("data/raw", exist_ok=True)
 
